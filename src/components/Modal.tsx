@@ -1,16 +1,18 @@
+import React, { ReactNode } from 'react';
 
-import React from 'react';
+interface ModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  children: ReactNode;
+}
 
-const Modal = ({ isOpen, onClose, children }) => {
+const Modal = ({ isOpen, onClose, children }: ModalProps) => {
   if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 overflow-y-auto no-scrollbar">
-      <div className=" bg-transparent p-6 rounded-lg w-full max-w-3xl mx-4 my-10 overflow-y-auto overflow-x-hidden max-h-[90vh] no-scrollbar">
-        <button
-          className="absolute top-0 right-0 m-4 text-2xl"
-          onClick={onClose}
-        >
+      <div className="bg-transparent p-6 rounded-lg w-full max-w-3xl mx-4 my-10 overflow-y-auto overflow-x-hidden max-h-[90vh] no-scrollbar">
+        <button className="absolute top-0 right-0 m-4 text-2xl" onClick={onClose}>
           &times;
         </button>
         {children}

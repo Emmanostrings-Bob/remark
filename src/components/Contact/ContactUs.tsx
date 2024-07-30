@@ -148,10 +148,10 @@ const ContactUs = () => {
                   />
                 </fieldset>
               </div>
-              <div className="col-span-full mt-10">
+              <div className="col-span-full mt-10 flex items-center justify-center">
                 <button
                   type="submit"
-                  className="w-full py-4 px-10 bg-blue-500 text-white text-base font-medium rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 hover:bg-blue-600 transition-all duration-300"
+                  className="w-1/2 py-4 px-10 bg-blue-400 text-white text-base font-medium rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 hover:bg-blue-600 transition-all duration-300"
                 >
                   Submit
                 </button>
