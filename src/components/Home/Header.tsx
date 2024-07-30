@@ -8,7 +8,7 @@ const Header = () => {
   const router = useRouter();
   const currentPath = router.pathname;
 
-  const isActive = (path) => currentPath === path;
+  const isActive = (path: string) => currentPath === path;
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
