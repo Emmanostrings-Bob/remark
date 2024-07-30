@@ -77,7 +77,7 @@ const News = () => {
         </div>
         <div className="px-4 md:px-0 mx-auto w-full max-w-[283px] md:max-w-[200px] flex justify-center items-center">
           <Link
-            href="/blog"
+            href="#blog"
             className="bg-blue-400 text-center text-base leading-[18px] font-medium w-full py-3 rounded text-blue-100"
           >
          more content

@@ -6,7 +6,7 @@ import News from "@/components/Home/News";
 import OurServices from "@/components/Home/OurServices";
 import PartnerWithUs from "@/components/Home/PartnerWithUs";
 import SolvingProblem from "@/components/Home/SolvingProblem";
-import OurProcess from "@/components/OurProcess";
+import OurProcess from "@/components/Home/OurProcess";
 
 const Home1 = () => {
   return (

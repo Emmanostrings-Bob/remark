@@ -44,7 +44,7 @@ const Footer = () => {
               <a className="w-max hover:underline text-gray-500 text-base font-normal leading-normal shrink-0" href="/services#process">
                 Our process
               </a>
-              <a className="w-max hover:underline text-gray-500 text-base font-normal leading-normal shrink-0" href="/blog">
+              <a className="w-max hover:underline text-gray-500 text-base font-normal leading-normal shrink-0" href="#blog">
                 Blog
               </a>
               <a className="w-max hover:underline text-gray-500 text-base font-normal leading-normal shrink-0" href="/contact">
