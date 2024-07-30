@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   return (
-    <section className="w-full h-full flex-grow pr-10">
+    <section className="w-full h-full flex-grow pt-10">
       <div className="w-full max-h-[712px] md:max-h-[792px] h-[100svh] relative flex z-[1]">
       <Image src='/assets/services-image.jpeg' alt='hero image background' fill style={{ objectFit: 'cover' }} />
         <div className="h-full w-full absolute bg-gradient-to-t pb-[72px] md:pb-[168px] px-4 md:px-8 lg:px-14 from-black via-black/70 to-black/10 flex flex-col justify-end items-start gap-y-6">
